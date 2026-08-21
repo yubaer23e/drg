@@ -1,0 +1,10 @@
+{
+  "modelVersion": "6.1.1",
+  "description": "DRG HarmonyOS application based on the Empty Ability template.",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "@ohos/hypium": "1.0.25",
+    "@ohos/hamock": "1.0.0"
+  }
+}
