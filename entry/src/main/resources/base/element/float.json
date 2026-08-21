@@ -1,0 +1,22 @@
+{
+  "float": [
+    { "name": "page_text_font_size", "value": "16fp" },
+    { "name": "title_display", "value": "30fp" },
+    { "name": "title_page", "value": "24fp" },
+    { "name": "title_card", "value": "18fp" },
+    { "name": "body", "value": "16fp" },
+    { "name": "caption", "value": "14fp" },
+    { "name": "hint", "value": "12fp" },
+    { "name": "space_xs", "value": "4vp" },
+    { "name": "space_sm", "value": "8vp" },
+    { "name": "space_md", "value": "12vp" },
+    { "name": "space_lg", "value": "16vp" },
+    { "name": "space_xl", "value": "24vp" },
+    { "name": "space_xxl", "value": "32vp" },
+    { "name": "radius_sm", "value": "12vp" },
+    { "name": "radius_md", "value": "16vp" },
+    { "name": "radius_lg", "value": "20vp" },
+    { "name": "row_height", "value": "72vp" },
+    { "name": "row_height_compact", "value": "56vp" }
+  ]
+}

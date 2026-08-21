@@ -1,0 +1,9 @@
+{
+  "name": "entry",
+  "version": "1.0.0",
+  "description": "0号保险库入口模块。",
+  "main": "",
+  "author": "yubaer23e",
+  "license": "",
+  "dependencies": {}
+}

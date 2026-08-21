@@ -1,0 +1,17 @@
+{
+  "src": [
+    "pages/SplashPage",
+    "pages/OnboardingPage",
+    "pages/UnlockPage",
+    "pages/RecoverPage",
+    "pages/ShellPage",
+    "pages/EntryEditPage",
+    "pages/EntryDetailPage",
+    "pages/GeneratorPage",
+    "pages/QrCodePage",
+    "pages/TotpPage",
+    "pages/DiaryEditPage",
+    "pages/BackupPage",
+    "pages/AboutPage"
+  ]
+}
