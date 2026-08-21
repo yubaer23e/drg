@@ -1,6 +1,6 @@
 {
   "modelVersion": "6.1.1",
-  "description": "DRG HarmonyOS application based on the Empty Ability template.",
+  "description": "0号保险库：纯本地、零联网的 HarmonyOS 密码与日记保险库。",
   "dependencies": {
   },
   "devDependencies": {

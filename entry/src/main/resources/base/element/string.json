@@ -2,15 +2,1123 @@
   "string": [
     {
       "name": "module_desc",
-      "value": "DRG HarmonyOS application entry module"
+      "value": "0号保险库入口模块，纯本地加密保管密码与日记。"
     },
     {
       "name": "EntryAbility_desc",
-      "value": "DRG application entry"
+      "value": "0号保险库"
     },
     {
       "name": "EntryAbility_label",
-      "value": "DRG"
+      "value": "0号保险库"
+    },
+    {
+      "name": "perm_camera",
+      "value": "扫描一次性验证码二维码时使用相机，仅在你主动扫码时开启。"
+    },
+    {
+      "name": "perm_mic",
+      "value": "录制日记语音时使用麦克风，仅在你点击录音时开启。"
+    },
+    {
+      "name": "share_desc",
+      "value": "接收其他应用分享的账号或网址，供你手动保存到保险库。"
+    },
+    {
+      "name": "brand",
+      "value": "0号保险库"
+    },
+    {
+      "name": "tagline",
+      "value": "秘密只留在你自己的设备里"
+    },
+    {
+      "name": "onboarding_p1_title",
+      "value": "零联网，本地保管"
+    },
+    {
+      "name": "onboarding_p1_body",
+      "value": "本应用不申请网络权限，也不包含云同步、账号或统计。密码、日记和备份口令不会离开这台设备。"
+    },
+    {
+      "name": "onboarding_p2_title",
+      "value": "硬件加密始终开启"
+    },
+    {
+      "name": "onboarding_p2_body",
+      "value": "条目在设备上以加密形式保存。应用锁、生物认证和防截屏都可以按你的需要打开或关闭，底层加密不会因此停止。"
+    },
+    {
+      "name": "onboarding_p3_title",
+      "value": "请先想好如何找回"
+    },
+    {
+      "name": "onboarding_p3_body",
+      "value": "忘记应用内置密码时，可用双重设备验证或你自己写的私密问题重置。系统指纹或锁屏密码忘了，需要在系统设置里处理。请尽快做一份加密备份。"
+    },
+    {
+      "name": "onboarding_next",
+      "value": "继续"
+    },
+    {
+      "name": "onboarding_start",
+      "value": "开始使用"
+    },
+    {
+      "name": "onboarding_skip_lock",
+      "value": "暂不设置应用锁"
+    },
+    {
+      "name": "create_lock_title",
+      "value": "选择打开方式"
+    },
+    {
+      "name": "create_lock_body",
+      "value": "你可以稍后再开。即使关掉应用锁，数据仍会加密存放。"
+    },
+    {
+      "name": "lock_device",
+      "value": "使用设备认证（指纹、人脸或锁屏密码）"
+    },
+    {
+      "name": "lock_master",
+      "value": "设置应用内置密码"
+    },
+    {
+      "name": "lock_none",
+      "value": "不额外加锁"
+    },
+    {
+      "name": "master_title",
+      "value": "设置内置密码"
+    },
+    {
+      "name": "master_hint",
+      "value": "至少 10 位，请使用你能记住且足够独特的口令。"
+    },
+    {
+      "name": "master_confirm",
+      "value": "再次输入"
+    },
+    {
+      "name": "master_mismatch",
+      "value": "两次输入不一致"
+    },
+    {
+      "name": "master_too_short",
+      "value": "内置密码至少 10 位"
+    },
+    {
+      "name": "master_strength",
+      "value": "强度"
+    },
+    {
+      "name": "btn_save",
+      "value": "保存"
+    },
+    {
+      "name": "btn_cancel",
+      "value": "取消"
+    },
+    {
+      "name": "btn_continue",
+      "value": "继续"
+    },
+    {
+      "name": "btn_done",
+      "value": "完成"
+    },
+    {
+      "name": "btn_delete",
+      "value": "删除"
+    },
+    {
+      "name": "btn_restore",
+      "value": "恢复"
+    },
+    {
+      "name": "btn_copy",
+      "value": "复制"
+    },
+    {
+      "name": "btn_show",
+      "value": "显示"
+    },
+    {
+      "name": "btn_hide",
+      "value": "隐藏"
+    },
+    {
+      "name": "btn_edit",
+      "value": "编辑"
+    },
+    {
+      "name": "btn_generate",
+      "value": "生成"
+    },
+    {
+      "name": "btn_lock",
+      "value": "锁定"
+    },
+    {
+      "name": "btn_unlock",
+      "value": "解锁"
+    },
+    {
+      "name": "btn_retry",
+      "value": "重试"
+    },
+    {
+      "name": "btn_got_it",
+      "value": "知道了"
+    },
+    {
+      "name": "btn_discard",
+      "value": "放弃修改"
+    },
+    {
+      "name": "btn_keep_edit",
+      "value": "继续编辑"
+    },
+    {
+      "name": "btn_replace",
+      "value": "完整替换"
+    },
+    {
+      "name": "btn_merge",
+      "value": "合并导入"
+    },
+    {
+      "name": "tab_vault",
+      "value": "保险库"
+    },
+    {
+      "name": "tab_diary",
+      "value": "日记"
+    },
+    {
+      "name": "tab_check",
+      "value": "检查"
+    },
+    {
+      "name": "tab_settings",
+      "value": "设置"
+    },
+    {
+      "name": "nav_all",
+      "value": "全部"
+    },
+    {
+      "name": "nav_login",
+      "value": "登录密码"
+    },
+    {
+      "name": "nav_wifi",
+      "value": "WiFi"
+    },
+    {
+      "name": "nav_card",
+      "value": "银行卡"
+    },
+    {
+      "name": "nav_id",
+      "value": "证件"
+    },
+    {
+      "name": "nav_note",
+      "value": "安全笔记"
+    },
+    {
+      "name": "nav_server",
+      "value": "服务器"
+    },
+    {
+      "name": "nav_totp",
+      "value": "验证码"
+    },
+    {
+      "name": "nav_custom",
+      "value": "自定义"
+    },
+    {
+      "name": "nav_fav",
+      "value": "收藏"
+    },
+    {
+      "name": "nav_frequent",
+      "value": "最常用"
+    },
+    {
+      "name": "nav_recent",
+      "value": "最近使用"
+    },
+    {
+      "name": "nav_added",
+      "value": "最近添加"
+    },
+    {
+      "name": "nav_attention",
+      "value": "需要处理"
+    },
+    {
+      "name": "nav_recycle",
+      "value": "回收站"
+    },
+    {
+      "name": "search_hint",
+      "value": "搜索名称、用户名、网址或标签"
+    },
+    {
+      "name": "empty_vault_title",
+      "value": "还没有条目"
+    },
+    {
+      "name": "empty_vault_body",
+      "value": "保存第一组账号、WiFi 或笔记。内容只存放在本机。"
+    },
+    {
+      "name": "empty_vault_action",
+      "value": "新建条目"
+    },
+    {
+      "name": "empty_search_title",
+      "value": "没有匹配结果"
+    },
+    {
+      "name": "empty_search_body",
+      "value": "试试更短的关键词，或换一个分类。密码正文不会出现在搜索里。"
+    },
+    {
+      "name": "empty_diary_title",
+      "value": "还没有日记"
+    },
+    {
+      "name": "empty_diary_body",
+      "value": "写下今天的事情。正文、录音和配图都会加密保存。"
+    },
+    {
+      "name": "empty_recycle_title",
+      "value": "回收站是空的"
+    },
+    {
+      "name": "empty_recycle_body",
+      "value": "删除的条目会在这里保留一段时间，随后永久清除。"
+    },
+    {
+      "name": "empty_check_title",
+      "value": "没有需要处理的问题"
+    },
+    {
+      "name": "empty_check_body",
+      "value": "当前没有弱密码、重复密码或已过期证件。"
+    },
+    {
+      "name": "new_entry",
+      "value": "新建"
+    },
+    {
+      "name": "new_entry_type",
+      "value": "选择类型"
+    },
+    {
+      "name": "field_title",
+      "value": "名称"
+    },
+    {
+      "name": "field_username",
+      "value": "用户名"
+    },
+    {
+      "name": "field_password",
+      "value": "密码"
+    },
+    {
+      "name": "field_url",
+      "value": "网站或应用"
+    },
+    {
+      "name": "field_notes",
+      "value": "备注"
+    },
+    {
+      "name": "field_tags",
+      "value": "标签"
+    },
+    {
+      "name": "field_ssid",
+      "value": "网络名称"
+    },
+    {
+      "name": "field_wifi_security",
+      "value": "安全类型"
+    },
+    {
+      "name": "field_hidden",
+      "value": "隐藏网络"
+    },
+    {
+      "name": "field_holder",
+      "value": "持卡人"
+    },
+    {
+      "name": "field_card_no",
+      "value": "卡号"
+    },
+    {
+      "name": "field_expiry",
+      "value": "有效期"
+    },
+    {
+      "name": "field_cvv",
+      "value": "安全码"
+    },
+    {
+      "name": "field_bank",
+      "value": "开户行"
+    },
+    {
+      "name": "field_pin_hint",
+      "value": "PIN 提示"
+    },
+    {
+      "name": "field_id_type",
+      "value": "证件类型"
+    },
+    {
+      "name": "field_id_name",
+      "value": "姓名"
+    },
+    {
+      "name": "field_id_no",
+      "value": "号码"
+    },
+    {
+      "name": "field_issuer",
+      "value": "签发地"
+    },
+    {
+      "name": "field_issued",
+      "value": "签发日"
+    },
+    {
+      "name": "field_expires",
+      "value": "到期日"
+    },
+    {
+      "name": "field_body",
+      "value": "正文"
+    },
+    {
+      "name": "field_host",
+      "value": "主机"
+    },
+    {
+      "name": "field_port",
+      "value": "端口"
+    },
+    {
+      "name": "field_private_key",
+      "value": "私钥"
+    },
+    {
+      "name": "field_passphrase",
+      "value": "口令"
+    },
+    {
+      "name": "field_totp_issuer",
+      "value": "发行方"
+    },
+    {
+      "name": "field_totp_account",
+      "value": "账号"
+    },
+    {
+      "name": "field_totp_secret",
+      "value": "密钥"
+    },
+    {
+      "name": "field_digits",
+      "value": "位数"
+    },
+    {
+      "name": "field_period",
+      "value": "周期（秒）"
+    },
+    {
+      "name": "field_algo",
+      "value": "算法"
+    },
+    {
+      "name": "field_custom",
+      "value": "自定义字段"
+    },
+    {
+      "name": "validate_need_name",
+      "value": "请至少填写名称或用户名"
+    },
+    {
+      "name": "unsaved_title",
+      "value": "放弃这次修改？"
+    },
+    {
+      "name": "unsaved_body",
+      "value": "未保存的内容会丢失。"
+    },
+    {
+      "name": "copied",
+      "value": "已复制"
+    },
+    {
+      "name": "copied_clears_in",
+      "value": "将在倒计时结束后从剪贴板清除"
+    },
+    {
+      "name": "secret_hidden",
+      "value": "已隐藏"
+    },
+    {
+      "name": "history",
+      "value": "修改历史"
+    },
+    {
+      "name": "history_empty",
+      "value": "还没有历史版本"
+    },
+    {
+      "name": "used_times",
+      "value": "使用次数"
+    },
+    {
+      "name": "last_used",
+      "value": "最近使用"
+    },
+    {
+      "name": "created_at",
+      "value": "创建时间"
+    },
+    {
+      "name": "modified_at",
+      "value": "修改时间"
+    },
+    {
+      "name": "group_today",
+      "value": "今天"
+    },
+    {
+      "name": "group_week",
+      "value": "本周"
+    },
+    {
+      "name": "group_month",
+      "value": "本月"
+    },
+    {
+      "name": "group_older",
+      "value": "更早"
+    },
+    {
+      "name": "sort_freq",
+      "value": "使用频率"
+    },
+    {
+      "name": "sort_used",
+      "value": "最近使用"
+    },
+    {
+      "name": "sort_modified",
+      "value": "最近修改"
+    },
+    {
+      "name": "sort_created",
+      "value": "创建时间"
+    },
+    {
+      "name": "sort_name",
+      "value": "名称"
+    },
+    {
+      "name": "gen_title",
+      "value": "密码生成器"
+    },
+    {
+      "name": "gen_length",
+      "value": "长度"
+    },
+    {
+      "name": "gen_upper",
+      "value": "大写字母"
+    },
+    {
+      "name": "gen_lower",
+      "value": "小写字母"
+    },
+    {
+      "name": "gen_digit",
+      "value": "数字"
+    },
+    {
+      "name": "gen_symbol",
+      "value": "特殊字符"
+    },
+    {
+      "name": "gen_similar",
+      "value": "排除相似字符"
+    },
+    {
+      "name": "gen_speak",
+      "value": "易读口令"
+    },
+    {
+      "name": "gen_entropy",
+      "value": "估计熵"
+    },
+    {
+      "name": "gen_bits",
+      "value": "比特"
+    },
+    {
+      "name": "gen_copy",
+      "value": "复制生成结果"
+    },
+    {
+      "name": "qr_title",
+      "value": "快速二维码"
+    },
+    {
+      "name": "qr_wifi_title",
+      "value": "WiFi 二维码"
+    },
+    {
+      "name": "qr_type",
+      "value": "内容类型"
+    },
+    {
+      "name": "qr_text",
+      "value": "文本"
+    },
+    {
+      "name": "qr_url",
+      "value": "网址"
+    },
+    {
+      "name": "qr_wifi",
+      "value": "WiFi"
+    },
+    {
+      "name": "qr_phone",
+      "value": "电话"
+    },
+    {
+      "name": "qr_sms",
+      "value": "短信"
+    },
+    {
+      "name": "qr_email",
+      "value": "电子邮件"
+    },
+    {
+      "name": "qr_vcard",
+      "value": "联系人"
+    },
+    {
+      "name": "qr_fields",
+      "value": "条目字段"
+    },
+    {
+      "name": "qr_confirm_password",
+      "value": "密码会写入二维码，附近的人扫码即可看到。确定继续？"
+    },
+    {
+      "name": "qr_empty",
+      "value": "请先填写内容"
+    },
+    {
+      "name": "qr_too_long",
+      "value": "内容过长，请缩短后再生成"
+    },
+    {
+      "name": "qr_contrast",
+      "value": "前景和背景对比不足，难以扫描"
+    },
+    {
+      "name": "qr_emu_title",
+      "value": "当前无法生成二维码"
+    },
+    {
+      "name": "qr_emu_body",
+      "value": "当前为模拟器环境，暂不支持生成二维码。请连接 HarmonyOS 真机测试此功能。"
+    },
+    {
+      "name": "qr_fail",
+      "value": "二维码生成失败，请调整内容后重试"
+    },
+    {
+      "name": "qr_keep_edit",
+      "value": "仍可编辑和复制内容"
+    },
+    {
+      "name": "totp_title",
+      "value": "验证码"
+    },
+    {
+      "name": "totp_manual",
+      "value": "手工输入密钥"
+    },
+    {
+      "name": "totp_scan",
+      "value": "扫描二维码"
+    },
+    {
+      "name": "totp_next",
+      "value": "下一个"
+    },
+    {
+      "name": "totp_clock",
+      "value": "设备时间可能不准，验证码也许无法使用。请在系统设置中核对时间。"
+    },
+    {
+      "name": "check_title",
+      "value": "安全检查"
+    },
+    {
+      "name": "check_weak",
+      "value": "弱密码"
+    },
+    {
+      "name": "check_reuse",
+      "value": "重复密码"
+    },
+    {
+      "name": "check_stale",
+      "value": "长期未更换"
+    },
+    {
+      "name": "check_expired",
+      "value": "已过期"
+    },
+    {
+      "name": "check_offline_note",
+      "value": "检查只在本机进行，不会查询任何在线泄露库。"
+    },
+    {
+      "name": "diary_title",
+      "value": "日记本"
+    },
+    {
+      "name": "diary_new_book",
+      "value": "新建日记本"
+    },
+    {
+      "name": "diary_new_entry",
+      "value": "写一篇"
+    },
+    {
+      "name": "diary_mood",
+      "value": "心情"
+    },
+    {
+      "name": "diary_weather",
+      "value": "天气"
+    },
+    {
+      "name": "diary_record",
+      "value": "录音"
+    },
+    {
+      "name": "diary_photo",
+      "value": "配图"
+    },
+    {
+      "name": "diary_lock",
+      "value": "打开前验证"
+    },
+    {
+      "name": "diary_date",
+      "value": "日期"
+    },
+    {
+      "name": "diary_bold",
+      "value": "加粗"
+    },
+    {
+      "name": "diary_list",
+      "value": "列表"
+    },
+    {
+      "name": "diary_quote",
+      "value": "引用"
+    },
+    {
+      "name": "diary_divider",
+      "value": "分割线"
+    },
+    {
+      "name": "rec_need_mic",
+      "value": "录音需要麦克风权限。拒绝后仍可写文字和配图。"
+    },
+    {
+      "name": "settings_title",
+      "value": "设置"
+    },
+    {
+      "name": "settings_security",
+      "value": "安全设置"
+    },
+    {
+      "name": "settings_privacy",
+      "value": "隐私保护"
+    },
+    {
+      "name": "settings_data",
+      "value": "数据管理"
+    },
+    {
+      "name": "settings_look",
+      "value": "外观与阅读"
+    },
+    {
+      "name": "settings_about",
+      "value": "关于"
+    },
+    {
+      "name": "set_app_lock",
+      "value": "应用锁"
+    },
+    {
+      "name": "set_app_lock_desc",
+      "value": "打开后，进入应用需要设备认证或内置密码。关闭后任何人拿起已解锁的手机都能看到条目列表。"
+    },
+    {
+      "name": "set_lock_method",
+      "value": "应用锁方式"
+    },
+    {
+      "name": "set_reset_method",
+      "value": "忘记内置密码时"
+    },
+    {
+      "name": "set_dual",
+      "value": "双重设备验证"
+    },
+    {
+      "name": "set_question",
+      "value": "自定义私密问题"
+    },
+    {
+      "name": "set_both_reset",
+      "value": "两种都可以"
+    },
+    {
+      "name": "set_autolock",
+      "value": "自动锁定时机"
+    },
+    {
+      "name": "set_autolock_now",
+      "value": "离开应用立即"
+    },
+    {
+      "name": "set_autolock_30",
+      "value": "30 秒"
+    },
+    {
+      "name": "set_autolock_60",
+      "value": "1 分钟"
+    },
+    {
+      "name": "set_autolock_300",
+      "value": "5 分钟"
+    },
+    {
+      "name": "set_autolock_off",
+      "value": "不自动锁定"
+    },
+    {
+      "name": "set_view_auth",
+      "value": "查看密码前验证"
+    },
+    {
+      "name": "set_view_auth_desc",
+      "value": "打开后，显示明文密码需要再认证一次。"
+    },
+    {
+      "name": "set_copy_auth",
+      "value": "复制密码前验证"
+    },
+    {
+      "name": "set_totp_auth",
+      "value": "显示验证码前验证"
+    },
+    {
+      "name": "set_export_auth",
+      "value": "导出或备份前验证"
+    },
+    {
+      "name": "set_privacy_window",
+      "value": "防截屏、录屏和投屏"
+    },
+    {
+      "name": "set_privacy_window_desc",
+      "value": "打开后，系统会阻止截屏和录屏。部分投屏场景仍可能被对方看到，不能当成绝对屏障。"
+    },
+    {
+      "name": "set_mask",
+      "value": "后台隐私遮罩"
+    },
+    {
+      "name": "set_mask_desc",
+      "value": "离开应用时用空白页盖住内容，避免多任务预览泄露。"
+    },
+    {
+      "name": "set_clipboard",
+      "value": "剪贴板自动清理"
+    },
+    {
+      "name": "set_clipboard_desc",
+      "value": "复制后倒计时清除，且只清除仍是本应用写入的内容。"
+    },
+    {
+      "name": "set_clip_local",
+      "value": "剪贴板仅限本机"
+    },
+    {
+      "name": "set_clip_local_desc",
+      "value": "尽量阻止密码经剪贴板同步到其他设备。系统不支持时会说明。"
+    },
+    {
+      "name": "set_decoy",
+      "value": "伪装保险库"
+    },
+    {
+      "name": "set_decoy_desc",
+      "value": "用另一组密码打开一个完全隔离的空库。不能对抗取证，只降低临时查看风险。"
+    },
+    {
+      "name": "set_recycle",
+      "value": "回收站"
+    },
+    {
+      "name": "set_recycle_desc",
+      "value": "关闭后删除将立即永久清除，无法恢复。"
+    },
+    {
+      "name": "set_stats",
+      "value": "使用频率统计"
+    },
+    {
+      "name": "set_stats_desc",
+      "value": "仅用于排序和“最常用”，数据留在本机。"
+    },
+    {
+      "name": "set_stats_clear",
+      "value": "清零使用统计"
+    },
+    {
+      "name": "set_check_remind",
+      "value": "安全检查提醒"
+    },
+    {
+      "name": "set_stale_days",
+      "value": "密码视为陈旧的天数"
+    },
+    {
+      "name": "appearance_follow",
+      "value": "跟随系统"
+    },
+    {
+      "name": "appearance_light",
+      "value": "浅色"
+    },
+    {
+      "name": "appearance_dark",
+      "value": "深色"
+    },
+    {
+      "name": "font_scale",
+      "value": "字体随系统缩放"
+    },
+    {
+      "name": "reduce_motion",
+      "value": "减少动态效果"
+    },
+    {
+      "name": "about_privacy",
+      "value": "隐私说明"
+    },
+    {
+      "name": "about_data",
+      "value": "本地数据说明"
+    },
+    {
+      "name": "about_no_net",
+      "value": "本应用不声明网络权限，也没有云同步或远程上报。"
+    },
+    {
+      "name": "about_version",
+      "value": "版本"
+    },
+    {
+      "name": "backup_title",
+      "value": "导出与导入"
+    },
+    {
+      "name": "backup_export",
+      "value": "导出加密保险库"
+    },
+    {
+      "name": "backup_import",
+      "value": "从备份恢复"
+    },
+    {
+      "name": "backup_export_pw",
+      "value": "设置导出密码"
+    },
+    {
+      "name": "backup_export_pw2",
+      "value": "确认导出密码"
+    },
+    {
+      "name": "backup_media",
+      "value": "导出照片和录音（普通文件）"
+    },
+    {
+      "name": "backup_media_warn",
+      "value": "导出后的照片和录音不再受本应用加密保护，请自行保管。"
+    },
+    {
+      "name": "backup_ok",
+      "value": "导出完成"
+    },
+    {
+      "name": "backup_fail",
+      "value": "无法完成导出"
+    },
+    {
+      "name": "backup_wrong",
+      "value": "密码不正确或文件已损坏"
+    },
+    {
+      "name": "backup_need_zvault",
+      "value": "请选择 .zvault 文件"
+    },
+    {
+      "name": "unlock_title",
+      "value": "解锁 0号保险库"
+    },
+    {
+      "name": "unlock_master",
+      "value": "输入内置密码"
+    },
+    {
+      "name": "unlock_device",
+      "value": "使用设备认证"
+    },
+    {
+      "name": "unlock_forgot",
+      "value": "忘记内置密码"
+    },
+    {
+      "name": "unlock_fail",
+      "value": "认证未通过"
+    },
+    {
+      "name": "recover_title",
+      "value": "重置内置密码"
+    },
+    {
+      "name": "recover_dual",
+      "value": "双重设备验证"
+    },
+    {
+      "name": "recover_dual_body",
+      "value": "需要连续通过两种不同的系统认证，例如指纹和锁屏密码。只通过一种不能重置。"
+    },
+    {
+      "name": "recover_q",
+      "value": "用私密问题重置"
+    },
+    {
+      "name": "recover_q_prompt",
+      "value": "请回答你当初写下的问题。答错会逐渐加长等待。"
+    },
+    {
+      "name": "recover_from_backup",
+      "value": "从加密备份恢复"
+    },
+    {
+      "name": "recover_wipe",
+      "value": "清空并重新初始化"
+    },
+    {
+      "name": "recover_wipe_phrase",
+      "value": "请输入：我了解数据将无法恢复"
+    },
+    {
+      "name": "recover_wipe_body",
+      "value": "这将销毁本机全部密文和钥匙副本。没有备份就无法找回。"
+    },
+    {
+      "name": "question_title",
+      "value": "设置私密问题"
+    },
+    {
+      "name": "question_q",
+      "value": "问题（请自己写，不要用容易猜的）"
+    },
+    {
+      "name": "question_a",
+      "value": "答案"
+    },
+    {
+      "name": "decoy_setup",
+      "value": "设置伪装密码"
+    },
+    {
+      "name": "color_graphite",
+      "value": "石墨"
+    },
+    {
+      "name": "color_ink",
+      "value": "墨绿"
+    },
+    {
+      "name": "color_clay",
+      "value": "陶土"
+    },
+    {
+      "name": "color_slate",
+      "value": "青灰"
+    },
+    {
+      "name": "color_sand",
+      "value": "沙色"
+    },
+    {
+      "name": "strength_weak",
+      "value": "弱"
+    },
+    {
+      "name": "strength_fair",
+      "value": "一般"
+    },
+    {
+      "name": "strength_good",
+      "value": "良好"
+    },
+    {
+      "name": "strength_strong",
+      "value": "强"
+    },
+    {
+      "name": "factory_phrase",
+      "value": "我了解数据将无法恢复"
+    },
+    {
+      "name": "file_vault_hint",
+      "value": "如需保管普通文件，请使用系统自带的文件保险箱。本应用不提供通用文件柜。"
+    },
+    {
+      "name": "autofill_note",
+      "value": "当前系统没有向第三方开放后台自动填充接口。你可以把账号从其他应用分享进来，或手动复制。我们不会用无障碍能力去读取别的应用。"
     }
   ]
 }

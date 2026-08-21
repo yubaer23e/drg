@@ -1,10 +1,9 @@
 {
   "name": "entry",
   "version": "1.0.0",
-  "description": "DRG entry HAP module.",
+  "description": "0号保险库入口模块。",
   "main": "",
-  "author": "",
+  "author": "yubaer23e",
   "license": "",
   "dependencies": {}
 }
-
